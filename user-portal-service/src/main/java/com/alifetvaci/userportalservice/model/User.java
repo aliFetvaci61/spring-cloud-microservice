@@ -64,5 +64,11 @@ public class User {
 		this.status = status;
 	}
 
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", username=" + username + ", email=" + email + ", password=" + password + ", status="
+				+ status + "]";
+	}
+
 	
 }
